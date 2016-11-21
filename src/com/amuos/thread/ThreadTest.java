@@ -4,6 +4,7 @@ import org.junit.Test;
 
 /**
  * Created by juan.wang on 11/21/16.
+ * Use Runnable to create thread.
  * Expected results in testCount (same as testCount2):
  * Thread-0-55
  * Thread-1-55
@@ -19,6 +20,7 @@ import org.junit.Test;
 public class ThreadTest {
     /**
      * Results not as expected, 'cause member variable num in class Count would be stored and used by each thread.
+     * Results show increasingly.
      */
     @Test
     public void testCount() {
