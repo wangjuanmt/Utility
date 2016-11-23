@@ -5,7 +5,7 @@ import org.junit.Test;
 /**
  * Created by juan.wang on 11/23/16.
  */
-public class Join {
+public class ThreadJoin {
 
     /**
      * t1和t2都执行完才继续主线程的执行，所谓合并，就是等待其它线程执行完，再执行当前线程，执行起来的效果就好像把其它线程合并到当前线程执行一样。
